@@ -1,0 +1,302 @@
+body{
+	margin: 0px;
+	/*overflow-y:hidden;*//*permet de fixe la hauteur du site a celle de l'ecran.*/
+	overflow-x: hidden;/*cette ligne de code permet de fixe la large du site a celle de l'ecran.*/
+}
+
+}
+#background{
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+#header{
+	width: 100%;
+	height: 33px;
+	background-color: white;
+	border: none;
+	box-shadow: 0 6px 5px rgba(0,0,0, 0.1);
+}
+#menu{
+	width: 80%;
+	height: 30px;
+	border:none;
+	margin-left:317px;
+	margin-top:50px;
+}
+.menus{
+	width: 16%;
+	height: 30px;
+	border:none;
+	float: left;
+	text-align: center;
+	color: #595656;
+	font-size: 16px;
+	margin-left: -3px;
+}
+.menus:hover{
+    color:#1e2cf2;
+    cursor: pointer; 
+    border-bottom: solid #1e2cf2 4px;
+}
+#color{
+	width: 16%;
+	height: 30px;
+	border-bottom: solid #1e2cf2 4px;
+	float: left;
+	color:#1e2cf2;
+	font-size: 16px;
+	margin-left: -3px;
+}
+#body{
+	width: 100%;
+    height: 65px;
+    background-color:white;
+    color: #534f4f;
+    text-align: center;
+    margin-top: 79px;
+    font-size: 35px;
+    border:none;
+}
+#presentationprestation{
+	width: 87%;
+    height: 500px;
+    background-color:white;
+    margin-left: 103px;
+    margin-top: 70px;
+    border: none;
+}
+#blockheure{
+	width: 60%;
+    height:443px;
+    border: solid white 1px;
+    background-color:#efe9e980;
+    margin-left: 256px;
+    margin-top: 47px;
+}
+p{
+	color: #4b4a4a;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 79px;
+}
+h1{
+	color: #807878;
+    font-size: 23px;
+    text-align: center;
+}
+h2{
+	color: #686464;
+    text-align:center;
+    font-size:16px;
+    margin-top:45px;
+}
+#bouton{
+	width: 42%;
+    height: 27px;
+    background-color: #1e2cf2;
+    margin-top: 64px;
+    margin-left: 231px;
+    border-radius: 118px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#footer{
+	width: 100%;
+	height: 500px;
+	border:none;
+	margin-top: 100px;
+	background-color:#8c8c8c;
+}
+.presentation{
+	width: 33.1%;
+	height: 500px;
+	border:none;
+	float: left;
+}
+.titre{
+	width: 80%;
+	height: 50px;
+	margin-top:70px;
+	color: #211f1f;
+    font-size: 28px;
+    margin-left: 48px;
+}
+.lestitres{
+	width: 80%;
+    height: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 46px;
+    font-size: 20px;
+    padding-top: 0px;
+    color: #353333;
+    line-height: 23px;
+}
+.lestitres:hover{
+    color:#1e2cf2;
+    cursor: pointer; 
+}
+.adresse{
+	width: 70%;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+    font-size: 14px;
+    padding-top: 0px;
+    color: #353333;
+    line-height: 23px;
+    margin-left: 110px;
+    float: left;
+  
+}
+.icone{
+	width: 12%;
+    height: 30px;
+    border: solid black 1px;
+    float: left;
+    margin-top: -32px;
+    margin-left: 54px;
+}
+#prestationsfooter{
+	width:87%;
+	height: 300px;
+	border: none; 
+	margin-left: 48px;
+	margin-top: 35px;
+}
+.blockprestation{
+	width: 49%;
+	height: 150px;
+	border:none;
+	float: left;
+
+}
+a{
+	color: inherit;
+	text-decoration: none;/*pour desouligné le liens de la page qui sajoute toujour automatiquement*/
+}
+#footer{
+	width: 100%;
+	height: 500px;
+	border:none;
+	margin-top: 100px;
+	background-color:#8c8c8c;
+}
+.presentation{
+	width: 33.1%;
+	height: 500px;
+	border:none;
+	float: left;
+}
+.titre{
+	width: 80%;
+	height: 50px;
+	margin-top:70px;
+	color: #211f1f;
+    font-size: 28px;
+    margin-left: 48px;
+}
+.lestitres{
+	width: 80%;
+    height: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 46px;
+    font-size: 25px;
+    padding-top: 0px;
+    color: #353333;
+    line-height: 23px;
+}
+.lestitres:hover{
+    color:#1e2cf2;
+    cursor: pointer; 
+}
+.adresse{
+	width: 70%;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+    font-size: 14px;
+    padding-top: 0px;
+    color: #353333;
+    line-height: 23px;
+    margin-left: 110px;
+    float: left;
+  
+}
+a{
+	color: inherit;
+	text-decoration: none;/*pour desouligné le liens de la page qui sajoute toujour automatiquement*/
+}
+.icone{
+	width: 8%;
+    height: 27px;
+    border: none;
+    float: left;
+    margin-top: -32px;
+    margin-left: 54px;
+}
+#prestationsfooter{
+	width:87%;
+	height: 300px;
+	border: none; 
+	margin-left: 48px;
+	margin-top: 35px;
+}
+.blockprestation{
+	width: 49%;
+	height: 150px;
+	border:none;
+	float: left;
+
+}
+#image10{
+	background-image: url(../images/914737658-manicure-fingernail-cosmetics-studio-draw-back.jpg);
+	background-size: cover;
+}
+#image3{
+	background-image: url(../images/9e9fa091676ca6980b3a0f9c2db5804f.jpg);
+	background-size: cover;
+}
+#image4{
+	background-image: url(../images/b9a5ce8f922a921602c1e35b0ff49204.jpg);
+	background-size: cover;
+}
+#image6{
+	background-image: url(../images/bcc119ba5ae669eb3a82bcdecbacac9d.jpg);
+	background-size: cover;
+}
+
+/* code css Lionel */
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+.absolute{
+	position: absolute;
+}
+.full {
+	width: 100%;
+	height: 493%;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.hidden{
+	display: none;
+}
+.taost{
+	width: 400px;
+	background-color: white;
+	box-shadow: 0 6px 5px rgba(0,0,0, 0.1);
+	color: grey;
+	text-align: center;
+	position: fixed;
+	padding: 20px 20px 30px;
+	top: 78%;
+	left: 65%;
+}

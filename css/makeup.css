@@ -1,0 +1,240 @@
+body{
+	margin: 0px;
+	/*overflow-y:hidden;*//*permet de fixe la hauteur du site a celle de l'ecran.*/
+	overflow-x: hidden;/*cette ligne de code permet de fixe la large du site a celle de l'ecran.*/
+}
+
+}
+#background{
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+#header{
+	width: 100%;
+	height: 33px;
+	background-color: white;
+	border: none;
+	box-shadow: 0 6px 5px rgba(0,0,0, 0.1);
+}
+#menu{
+	width: 80%;
+	height: 30px;
+	border:none;
+	margin-left:317px;
+	margin-top:50px;
+}
+.menus{
+	width: 16%;
+	height: 30px;
+	border:none;
+	float: left;
+	text-align: center;
+	color: #595656;
+	font-size: 16px;
+	margin-left: -3px;
+}
+.menus:hover{
+    color:#1e2cf2;
+    cursor: pointer; 
+    border-bottom: solid #1e2cf2 4px;
+}
+#color{
+	width: 16%;
+	height: 30px;
+	border-bottom: solid #1e2cf2 4px;
+	float: left;
+	color:#1e2cf2;
+	font-size: 16px;
+	margin-left: -3px;
+}
+#body{
+	width: 100%;
+    height: 65px;
+    background-color:white;
+    color: #534f4f;
+    text-align: center;
+    margin-top: 79px;
+    font-size: 35px;
+    border:none;
+}
+#presentationprestation{
+	width: 87%;
+    height: 500px;
+    background-color:white;
+    margin-left: 103px;
+    margin-top: 70px;
+    border: none;
+}
+#blockprestation{
+	width: 63%;
+    height: 485px;
+    border: none;
+    margin-left: 259px;
+    margin-top: 38px;
+}
+.prestation{
+	width: 60%;
+	height:485px;
+	background-image: url(../images/cd80b440c9c4b291f3f90119ad952976.jpg);
+	background-size: cover;
+}
+.textimage{
+	width: 100%;
+	height: 415px;
+	margin-top: 20px;
+	background-color:none;
+	border:none;
+}
+.textimages{
+	width: 100%;
+	height: 35px;
+	margin-top: 20px;
+	background-color:#090909b3;
+	border:none;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	padding-top: 15px;
+	cursor: pointer;
+}
+a{
+	color: inherit;
+	text-decoration: none;/*pour desouligné le liens de la page qui sajoute toujour automatiquement*/
+}
+.autreprestations{
+	width: 37%;
+	height: 485px;
+	border:none;
+	float: right;
+}
+.prestationimage{
+    width:100%;
+    height: 220px;
+    border:none; 
+    background-image: url(../images/bcc119ba5ae669eb3a82bcdecbacac9d.jpg);
+    background-size: cover;
+}
+.prestationimages{
+    width: 100%;
+    height: 235px;
+    border: none;
+    margin-top: 28px;
+    background-image:url(../images/9e9fa091676ca6980b3a0f9c2db5804f.jpg);
+    background-size: cover;
+}
+.blockimage{
+	width: 100%;
+	height: 170px;
+	background-color:none;
+	border:none;
+}
+.blockimages{
+	width: 100%;
+    height: 37px;
+    background-color: #090909b3;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding-top: 14px;
+    cursor: pointer;
+}
+.blockimagess{
+	width: 100%;
+    height: 40px;
+    background-color: #090909b3;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding-top: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#footer{
+	width: 100%;
+	height: 500px;
+	border:none;
+	margin-top: 100px;
+	background-color:#8c8c8c;
+}
+.presentation{
+	width: 33.1%;
+	height: 500px;
+	border:none;
+	float: left;
+}
+.titre{
+	width: 80%;
+	height: 50px;
+	margin-top:70px;
+	color: #211f1f;
+    font-size: 28px;
+    margin-left: 48px;
+}
+.lestitres{
+	width: 80%;
+    height: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 46px;
+    font-size: 20px;
+    padding-top: 0px;
+    color: #353333;
+    line-height: 23px;
+}
+.lestitres:hover{
+    color:#1e2cf2;
+    cursor: pointer; 
+}
+.adresse{
+	width: 70%;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+    font-size: 14px;
+    padding-top: 0px;
+    color: #353333;
+    line-height: 23px;
+    margin-left: 110px;
+    float: left;
+}
+.icone{
+	width: 8%;
+    height: 27px;
+    border: none;
+    float: left;
+    margin-top: -32px;
+    margin-left: 54px;
+}
+#prestationsfooter{
+	width:87%;
+	height: 300px;
+	border: none; 
+	margin-left: 48px;
+	margin-top: 35px;
+}
+.blockprestation{
+	width: 49%;
+	height: 150px;
+	border:none;
+	float: left;
+
+}
+#image10{
+	background-image: url(../images/914737658-manicure-fingernail-cosmetics-studio-draw-back.jpg);
+	background-size: cover;
+}
+#image3{
+	background-image: url(../images/9e9fa091676ca6980b3a0f9c2db5804f.jpg);
+	background-size: cover;
+}
+#image4{
+	background-image: url(../images/b9a5ce8f922a921602c1e35b0ff49204.jpg);
+	background-size: cover;
+}
+#image6{
+	background-image: url(../images/bcc119ba5ae669eb3a82bcdecbacac9d.jpg);
+	background-size: cover;
+}

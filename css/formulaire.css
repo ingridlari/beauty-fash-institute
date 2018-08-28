@@ -1,0 +1,58 @@
+#backgroundForm{
+	width: 500px;
+	height: 500px;
+	border: solid #b6b2b2 1px;
+    background-color:white;
+    position: relative;
+    margin-top: 5%;
+    left: 35%;
+    border-radius: 5px;
+
+}
+h3{
+	color:#787878;
+	text-align: center;
+}
+input{
+	width: 400px;
+	height: 30px;
+	border: solid #c7c6d1 1px;
+    background-color: white;
+	margin-top: 27px;
+	border-radius:5px;
+}
+#boutonreserves{
+	width: 100%;
+	height: 43px;
+	border: none;
+	margin-top: 32px;
+
+}
+#boutonannuler{
+    width: 163px;
+    height: 27px;
+    border-radius: 118px;
+    background-color: #e5e5e5;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 13px;
+    margin-left: 38px;
+    float: left;
+    color: #484848;          
+    cursor: pointer;
+
+}
+#boutonreserve{
+	width: 163px;
+    height: 27px;
+    border-radius: 118px;
+    font-size: 15px;
+    text-align: center;
+    background-color:#1e2cf2;
+    float: left;
+    padding-top: 13px;
+    margin-left: 94px;
+    color:white;
+    cursor: pointer;
+}
+

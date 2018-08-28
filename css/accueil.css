@@ -1,0 +1,368 @@
+body{
+	margin: 0px;
+	/*overflow-y:hidden;*//*permet de fixe la hauteur du site a celle de l'ecran.*/
+	overflow-x: hidden;/*cette ligne de code permet de fixe la large du site a celle de l'ecran.*/
+}
+
+}
+#background{
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+#header{
+	width: 100%;
+	height: 33px;
+	background-color: white;
+	border: none;
+	box-shadow: 0 6px 5px rgba(0,0,0, 0.1);
+}
+#menu{
+	width: 80%;
+	height: 30px;
+	border:none;
+	margin-left:317px;
+	margin-top:50px;
+}
+.menus{
+	width: 16%;
+	height: 30px;
+	border:none;
+	float: left;
+	text-align: center;
+	color: #595656;
+	font-size: 16px;
+	margin-left: -3px;
+}
+.menus:hover{
+    color:#1e2cf2;
+    cursor: pointer; 
+    border-bottom: solid #1e2cf2 4px;
+}
+#color{
+	width: 16%;
+	height: 30px;
+	border-bottom: solid #1e2cf2 4px;
+	float: left;
+	color:#1e2cf2;
+	font-size: 16px;
+	margin-left: -3px;
+}
+a{
+	color: inherit;
+	text-decoration: none;/*pour desouligné le liens de la page qui sajoute toujour automatiquement*/
+}
+#imgheader{
+	width: 100%;
+	height: 700px;
+	border: none;
+	background-image: url(../images/massage_hd.jpg);
+	margin-top: 10.5px;
+	background-size: cover;
+}
+#blockdetext{
+	width: 100%;
+	height: 600px;
+	border: solid white 1px;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+.textdentree{
+	width: 50%;
+	height: 50px;
+	border:none;
+	margin-top: 151px;
+    margin-left: 351px;
+    font-size: 49px;
+    color: #534f4f;
+    text-align: center;
+}
+.prestations{
+	width: 50%;
+	height: 28px;
+	border:none;
+    margin-left: 351px;
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    color: #565050;
+}
+#bouton{
+	width: 33%;
+    height: 41px;
+    background-color: #1e2cf2;
+    margin-top: 136px;
+    margin-left: 462px;
+    border-radius: 118px;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 6px 6px 6px 6px rgba(0,0,0, 0.3);
+}
+#body{
+	width: 100%;
+    height: 65px;
+    background-color:white;
+    color: #534f4f;
+    text-align: center;
+    margin-top: 79px;
+    font-size: 47px;
+    border:none;
+}
+#presentationprestation{
+	width: 87%;
+    height: 1300px;
+    background-color:white;
+    margin-left: 84px;
+    margin-top: 70px;
+}
+.services{
+	width: 33.3%;
+	height: 432px;
+	background-color: white;
+	border:none;
+	float: left;
+}
+.blockflo{
+	visibility: hidden;
+}
+#image1:hover
+.blockflo{
+	visibility: visible;
+	transition: 1s all;
+}
+#image2:hover
+.blockflo{
+	visibility: visible;
+	transition: 1s all;
+}
+#image3:hover
+.blockflo{
+	visibility: visible;
+	transition: 1s all;
+}
+#image4:hover
+.blockflo{
+	visibility: visible;
+	transition: 1s all;
+}
+#image5:hover
+.blockflo{
+	visibility: visible;
+	transition: 1s all;
+}
+#image6:hover
+.blockflo{
+	visibility: visible;
+	transition: 1s all;
+}
+#image7:hover
+.blockflo{
+	visibility: visible;
+	transition: 1s all;
+}
+#image8:hover
+.blockflo{
+	visibility: visible;
+	transition: 1s all;
+}
+#image9:hover
+.blockflo{
+	visibility: visible;
+	transition: 1s all;
+}
+#image1{
+	background-image: url(../images/Girls-Nails-Latest-Photos.jpg);
+	background-size: cover;
+}
+#image2{
+	background-image: url(../images/instittut-3.jpg);
+	background-size: cover;
+}
+#image3{
+	background-image: url(../images/9e9fa091676ca6980b3a0f9c2db5804f.jpg);
+	background-size: cover;
+}
+#image4{
+	background-image: url(../images/b9a5ce8f922a921602c1e35b0ff49204.jpg);
+	background-size: cover;
+}
+#image5{
+	background-image: url(../images/cd80b440c9c4b291f3f90119ad952976.jpg);
+	background-size: cover;
+}
+#image6{
+	background-image: url(../images/bcc119ba5ae669eb3a82bcdecbacac9d.jpg);
+	background-size: cover;
+}
+#image7{
+	background-image: url(../images/36d4691c5023baa763ffeea294be69d6.jpg);
+	background-size: cover;
+}
+#image8{
+	background-image: url(../images/114503_0.jpg);
+	background-size: cover;
+}
+#image9{
+	background-image: url(../images/54100930-closeup-photo-of-a-female-feet-at-spa-salon-on-pedicure-and-manicure-procedure-soft-focus-image.jpg);
+	background-size: cover;
+}
+.blockflo{
+	width: 100%;
+	height: 432px;
+	background-color:#e3e0e099;
+	border:none;
+}
+.flotext{
+	width: 100%;
+    height: 35px;
+    border:none;
+    color: #484444;
+    text-align: center;
+    padding-top: 75px;
+    font-size: 36px;
+}
+img{
+	margin-left: 250px;
+	height: 19px;
+	margin-top: 32px;
+}
+h6{
+	font-size: 10px;
+    margin-top: -19px;
+    margin-left: 276px;
+    color: #333435;
+}
+.flodescription{
+    width: 100%;
+    height: 235px;
+    border:none;
+}
+#boutonreserver{
+	width: 100%;
+	height: 29px;
+	border:none;
+	background-color:#4e4b4b;
+	color:white;
+	text-align: center;
+	padding-top: 9px;
+	cursor: pointer;
+}
+p{
+	width: 72%;
+	margin-left:53px;
+	text-align: justify;
+	font-size: 14px;
+	color:#454242;
+	border:none;
+	margin-top:49px;
+
+}
+#footer{
+	width: 100%;
+	height: 500px;
+	border:none;
+	margin-top: 100px;
+	background-color:#8c8c8c;
+}
+.presentation{
+	width: 33.1%;
+	height: 500px;
+	border:none;
+	float: left;
+}
+.titre{
+	width: 80%;
+	height: 50px;
+	margin-top:70px;
+	color: #211f1f;
+    font-size: 28px;
+    margin-left: 48px;
+}
+.lestitres{
+	width: 80%;
+    height: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 46px;
+    font-size: 20px;
+    padding-top: 0px;
+    color: #353333;
+    line-height: 23px;
+}
+.lestitres:hover{
+    color:#1e2cf2;
+    cursor: pointer; 
+}
+.adresse{
+	width: 70%;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+    font-size: 14px;
+    padding-top: 0px;
+    color: #353333;
+    line-height: 23px;
+    margin-left: 110px;
+    float: left;
+  
+}
+.icone{
+	width: 8%;
+    height: 27px;
+    border: none;
+    float: left;
+    margin-top: -32px;
+    margin-left: 54px;
+}
+#prestationsfooter{
+	width:87%;
+	height: 300px;
+	border: none; 
+	margin-left: 48px;
+	margin-top: 35px;
+}
+.blockprestation{
+	width: 49%;
+	height: 150px;
+	border:none;
+	float: left;
+	cursor: pointer;
+
+}
+#image10{
+	background-image: url(../images/914737658-manicure-fingernail-cosmetics-studio-draw-back.jpg);
+	background-size: cover;
+}
+/* code css Lionel */
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+.absolute{
+	position: absolute;
+}
+.full {
+	width: 100%;
+	height: 493%;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.hidden{
+	display: none;
+}
+.taost{
+	width: 400px;
+	background-color: white;
+	box-shadow: 0px 6px 5px rgba(0,0,0, 0.1);
+	color: grey;
+	text-align: center;
+	position: fixed;
+	padding: 20px 20px 30px;
+	top: 78%;
+	left: 65%;
+}

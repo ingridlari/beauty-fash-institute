@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <link rel="stylesheet" type="text/css" href="css/contact.css">
+	    <link rel="stylesheet" type="text/css" href="css/formulaire.css">
+	    <title>Contact.</title>
+    </head>
+    <body>
+        <div id="background" class="absolute">
+        	<div id="header">
+        		<div id="menu">
+        			<div class="menus"><a href="accueil.html">Accueil</a></div>
+        			<div class="menus"><a href="makeup.html">Make-up</a></div>
+        			<div class="menus"><a href="manicurepedicure.html">Manicure & pedicure</a></div>
+        			<div class="menus"><a href="soinsbeaute.html">Astuces soins</a></div>
+        			<div class="menus"><a href="horaire.html">Horaires ouverture</a></div>
+        			<div class="menus" id="color"><a href="contact.html">Contact</a></div>
+        		</div>
+        	</div>
+        	<div id="body">Contactez-nous</div>
+        	<div id="presentationprestation">
+        		<div class="adresses">
+        			<div class="blockadresse"><p>adresse de nos salons a l'ondres</p>
+                      <h2>jardin des hondres face au musee des art moderne<br>
+                      	  jardin des hondres face au musee des art moderne
+                      	</h2>
+                    </div>
+        			<div class="blockheure"><p>Nous sommes ouverts</p>
+        				<h1>7jours/7</h1>
+        				<p>de 8h00 a 23h30</p>
+        				 <div id="bouton" class="modal-trigger">Reservez maintenant</div>
+        			</div>
+        		</div>
+        		<div class="plan"></div>
+
+        	</div>
+        	<div id="footer">
+            	<div class="presentation">
+            		<div class="titre">Nos services</div>
+            		<div class="lestitres"><a href="makeupjour.html">Make-up jour</a></div>
+            		<div class="lestitres"><a href="makeupnuit.html">Make-up nuit</a></div>
+            		<div class="lestitres"><a href="manicurepedicure.html">Manicure</a></div>
+            		<div class="lestitres"><a href="manicurepedicure.html">Pedicure</a></div>
+            		<div class="lestitres"><a href="soinsbeaute.html">Soins du visagesss</a></div>
+            	</div>
+            	<div class="presentation">
+            		<div class="titre">contactez-nous</div>
+            		<div class="adresse">Avenue Kennedy,en face de NBC banque.</div>
+            		<div class="icone" style="background-image: url(images/controls-editor-location@32px.png);background-size:cover;"></div>
+            		<div class="adresse">+237 691 261 776.</div>
+            		<div class="icone" style="background-image: url(images/glyphicons_free/glyphicons_free/glyphicons/png/glyphicons-443-earphone.png); background-size: cover;"></div>
+            		<div class="adresse">instantsDeReine@hgmail.com</div>
+            		<div class="icone" style="background-image: url(images/glyphicons_free/glyphicons_free/glyphicons/png/glyphicons-11-envelope.png); background-size: cover;"></div>
+            		<div class="adresse">instantdereine.cm</div>
+            	</div>
+            	<div class="presentation">
+            		<div class="titre">Nos prestations</div>
+            		<div id="prestationsfooter">
+            			<div class="blockprestation" id="image3"></div>
+            			<div class="blockprestation" id="image10"></div>
+            			<div class="blockprestation" id="image6"></div>
+            			<div class="blockprestation" id="image4"></div>
+            		</div>
+            	</div>
+            </div>
+        </div>
+
+
+        <!-- Section de la modal -->
+        <div class="full absolute hidden">
+			 <div class="modal">
+				<div id="backgroundForm">
+		       	    <h3>Reservation</h3>
+		       	    <input placeholder="NOm" type="text" name="nom" size="55" maxlength="150" style="margin-left:40px; padding-left: 15px;" >
+		            <input  placeholder="Prenom" type="text" name="nom" size="55" maxlength="150" style="margin-left:40px; margin-top: 15px; padding-left: 15px" >
+		            <input placeholder="Telephone" type="text" name="nom" size="55" maxlength="150" style="margin-left:40px;  margin-top: 15px; padding-left: 15px;" >
+		            <input placeholder="Ville" type="text" name="nom" size="55" maxlength="150" style="margin-left:40px;  margin-top: 15px; padding-left: 15px;" >
+		             <input placeholder="E-mail" type="nom" name="nom" size="55" maxlength="150" style="margin-left:40px;  margin-top: 15px; padding-left: 15px;" >
+		            <input type="date" size="55" maxlength="150" style="margin-left:40px;  margin-top: 15px; padding-left: 15px;">
+		            <input type="time" name="nom" size="55" maxlength="150" style="margin-left:40px;  margin-top: 15px; padding-left: 15px;" >
+		            <div id="boutonreserver">
+		            	<div id="boutonannuler" class="modal-close">annuler</div>
+		            	<div id="boutonreserve" class="modal-close reserve">Je reserve</div>
+		            </div>
+		        </div>
+			 </div>	
+        </div> 
+        <div class="taost hidden">
+        	<div style="text-align: right;margin-bottom: 10px; color:red; cursor: pointer;" class="close-toast"><b>x</b></div>
+        	Reservation effectuer avec success . Vous serez notifier par message pour la suite
+        </div>
+
+        <script type="text/javascript">
+        	var close = document.querySelectorAll(".modal-close");
+        	var modal = document.querySelector(".full");
+        	for(var i = 0; i<close.length; i++){
+        		close[i].addEventListener('click', function(){
+        			modal.classList.add("hidden");
+        		})
+        	}
+        	var trigger = document.querySelectorAll(".modal-trigger");
+        	for(var i = 0; i<trigger.length; i++){
+        		trigger[i].addEventListener('click', function(){
+        			modal.classList.remove("hidden");
+        		})
+        	}
+        	let accept = document.querySelector(".reserve");
+        	accept.addEventListener("click", function(){
+        		document.querySelector(".taost").classList.remove("hidden");
+        		setTimeout(function(){
+        		document.querySelector(".taost").classList.add("hidden")		
+
+        	}, 8000);		
+        	});
+        	document.querySelector(".close-toast").addEventListener("click", function(){
+        		document.querySelector(".taost").classList.add("hidden");
+        		
+        	})
+        </script>
+    </body>
+</html>
